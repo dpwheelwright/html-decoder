@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <iostream>
 
 int main(int argc, char * argv[]) {
+    
+    std::cout << "Goodbye, universe!" << std::endl;
     
     return 0;
 }
