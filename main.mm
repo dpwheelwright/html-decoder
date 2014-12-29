@@ -7,13 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <curl/curl.h>
 #import <iostream>
+
+void stream_http_request (const char * http_url);
 
 int main(int argc, char * argv[]) {
     
-    std::cout << "Goodbye, universe!" << std::endl;
-    
-    const char * a = "let it rock - kevin rudolph";
-    
-    return 10; 
+    return 0;
 }
+
+void stream_http_request (const char * http_url) {
+
+
+}
+
